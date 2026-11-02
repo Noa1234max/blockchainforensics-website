@@ -38,4 +38,3 @@ PREMIUM DESIGN UPDATE
 
 LIVE CLIENT BALANCE VALUATION
 - Every successful 5-second market quote refresh recalculates each client's displayed CAD value for their assigned BTC, ETH, SOL, XRP, DOGE and USDC quantities.
-- The client's assigned crypto quantities are NOT changed by market prices; only their estimated CAD equivalent and portfolio total change.
