@@ -29,10 +29,6 @@ function showAccountBalances(assets){
   const priceBySymbol={};
   marketCoins.forEach(c=>{if(typeof latestMarketPrices[c.id]==="number")priceBySymbol[c.symbol]=latestMarketPrices[c.id];});
   el.replaceChildren();
-  const heading=document.createElement("strong");
-  heading.textContent=lang==="fr"?"Soldes du compte — valeur indicative en CAD":"Client balances — indicative value in CAD";
-  el.append(heading);
-  const list=document.createElement("div");
   list.className="account-balance-list";
   let totalCad=0, pricedCount=0;
   for(const item of rows){
