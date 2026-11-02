@@ -23,7 +23,7 @@ function showAccountBalances(assets){
   if(Array.isArray(assets)) currentClientAssets=assets;
   const rows=currentClientAssets.filter(item => Number(item.balance) > 0);
   if(!rows.length){
-    el.textContent=lang==="fr"?"Aucun solde virtuel n’est attribué à ce dossier.":"No virtual balances have been assigned to this case yet.";
+    el.textContent=lang==="fr"?"Aucun solde virtuel n’est attribué à ce dossier.":
     return;
   }
   const priceBySymbol={};
